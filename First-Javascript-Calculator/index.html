@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <title>Calculator</title>
+            <link rel="stylesheet" href="style.css">
+            <script src="app.js"></script>
+</head>
+<body>
+    <center>
+        <h1>My First Javscript Calculator</h1>
+    </center>
+    <form name="calculator">
+        <table>
+           <th colspan="7"><input class="result" name="result"><th>
+        
+            <tr>
+                <td><input type="button" name="7" value="7" onclick="run7()"></td>
+                <td><input type="button" name="8" value="8" onclick="run8()"></td>
+                <td><input type="button" name="9" value="9" onclick="run9()"></td>
+                <td colspan="3"><input class="del" type="button" name="del" value="Del" onclick="rundel()"></td>
+            </tr>
+            <tr>
+                <td><input type="button" name="4" value="4" onclick="run4()"></td>
+                <td><input type="button" name="5" value="5" onclick="run5()"></td>
+                <td><input type="button" name="6" value="6" onclick="run6()"></td>
+                <td><input type="button" name="/" value="/" onclick="rundivide()"></td>
+                <td rowspan="2"><input class="row" type="button" name="+" value="+" onclick="runplus()"></td>
+            </tr>
+            <tr>
+                <td><input type="button" name="1" value="1" onclick="run1()"></td>
+                <td><input type="button" name="2" value="2" onclick="run2()"></td>
+                <td><input type="button" name="3" value="3" onclick="run3()"></td>
+                <td><input type="button" name="*" value="*" onclick="runmultiply()"></td>
+            </tr>
+            <tr>
+                <td><input type="button" name="." value="." onclick="runpoint()"></td>
+                <td><input type="button" name="0" value="0" onclick="run0()"></td>
+                <td><input type="button" name="calc" value="=" onclick="evalu()"></td>
+                <td><input type="button" name="-" value="-" onclick="runminus()"></td>
+                
+                <td colspan="2"><input type="button" name="%" value="%" onclick="runpercent()"></td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+</html>
